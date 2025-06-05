@@ -19,8 +19,6 @@
             overflow-x: hidden;
             scroll-behavior:smooth;
         }
-
-        /* Header */
         header {
     position: fixed;
     top: 0;
@@ -76,8 +74,6 @@
         nav a:hover::after {
             width: 100%;
         }
-
-        /* Hero Section */
         .hero {
             height: 100vh;
             display: flex;
@@ -131,8 +127,6 @@
             from, to { border-color: transparent; }
             50% { border-color: var(--primary); }
         }
-
-        /* Skills Section */
         .skills {
             padding: 5rem 10%;
             background-color: var(--darker);
@@ -227,15 +221,12 @@
             color: var(--primary);
             font-weight: bold;
         }
-
-        /* Footer */
         footer {
             text-align: center;
             padding: 2rem;
             background-color: var(--darker);
             border-top: 1px solid rgba(0, 247, 255, 0.1);
         }
- /* ===== Social Links Container ===== */
 .social-links {
   display: flex;
   justify-content: center;
@@ -247,8 +238,6 @@
   list-style: none;
   flex-wrap: nowrap;
 }
-
-/* ===== Individual Social Icons ===== */
 .social-icon {
   /* Structure */
   display: inline-flex;
@@ -257,7 +246,7 @@
   width: 50px;
   height: 50px;
   text-decoration:none;
-  flex-shrink: 0; /* Prevents distortion */
+  flex-shrink: 0;
   
   /* Visual Style */
   color: #e0e0e0;
@@ -274,8 +263,6 @@
   cursor: pointer;
   position: relative;
 }
-
-/* ===== Hover/Active States ===== */
 .social-icon:hover {
   transform: translateY(-4px) scale(1.08);
   box-shadow: 0 8px 16px rgba(0, 247, 255, 0.25);
@@ -285,8 +272,6 @@
 .social-icon:active {
   transform: translateY(-1px) scale(0.98);
 }
-
-/* ===== Platform-Specific Colors ===== */
 /* GitHub */
 .social-icon[href*="github"]:hover {
   color: white;
@@ -312,7 +297,6 @@
   color: white;
   background: linear-gradient(135deg, #d44638, #e94b3e);
 }
-/* X icon styling to match others */
 .x-icon.fab::before {
     content: "";
     display: inline-block;
@@ -325,7 +309,6 @@
     
 }
 
-/* Platform-specific hover effect for X */
 .social-icon[href*="x.com"]:hover {
     background: #000000;
 }
@@ -341,8 +324,6 @@
     font-size: 1.4rem;
   }
 }
-
-/* Active/Focus States */
 .social-icon:active {
   transform: scale(0.95);
 }
