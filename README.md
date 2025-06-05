@@ -23,6 +23,7 @@ Welcome to the official repository of **[prnxve.me](https://prnxve.me)** — the
 - **Fonts & Icons**: Google Fonts, Remixicon/FontAwesome
 - **Email**: prnxve@gmail.com
 - **Deployment**: git hub pages 
+Design and developed with ❤️ by Prince verma(prnxve)
 
 ## 📁 Folder Structure
 
@@ -37,4 +38,3 @@ Welcome to the official repository of **[prnxve.me](https://prnxve.me)** — the
 ├── /js
 │   └── main.js
 └── README.md
-Design and developed with ❤️ by Prince verma(prnxve)
