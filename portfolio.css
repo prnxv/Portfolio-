@@ -456,4 +456,5 @@ width: 50px;
   text-align: center;
   display: flex;
   flex-direction: column;
+background-color: rgba(0, 247, 255, 0.08);
 }
