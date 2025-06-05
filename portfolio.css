@@ -329,7 +329,6 @@
 .social-icon[href*="x.com"]:hover {
     background: #000000;
 }
-/* ===== Responsive Adjustments ===== */
 @media (max-width: 768px) {
   .social-links {
     gap: 1.2rem;
@@ -378,9 +377,11 @@ width: 50px;
       box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
       transition: transform 0.3s;
       text-align: center;
-      display:flex;
+     display:flex;
      flex-direction: column;
     }
+
+    
 
     .project-image {
       display: block;
@@ -444,18 +445,14 @@ width: 50px;
       height:230px;
       width:300px;
     }
-    #project {
-  display: flex;
-  justify-content: center;
-  align-items: center; /* optional vertical centering */
-  width: 100vw;        
-  height: 100vh;
-  padding: 20px;
-}
+    #project{
+        display:flex;
+        justify-content: center;
+    }
     html {
   scroll-padding-top: 120px;
 }
-project-card:hover {
+.project-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 10px 20px rgba(0, 247, 255, 0.1);
             border-color: var(--primary);
