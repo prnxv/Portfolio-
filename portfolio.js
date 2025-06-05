@@ -62,3 +62,7 @@
                 observer.observe(bar);
             });
         });
+  document.querySelector('.cta-button').addEventListener('click', function (e) {
+    e.preventDefault(); // Prevent default anchor behavior
+    window.location.href = 'https://prnxv.github.io/Login-page/';
+  });
