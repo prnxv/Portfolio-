@@ -1,4 +1,5 @@
-# 🌐 prnxve.me Prince Verma's Portfolio
+# 🌐 prnxve.me 
+Prince Verma's Portfolio
 
 Welcome to the official repository of **[prnxve.me](https://prnxve.me)** — the personal portfolio of **Prince Verma**, a full-stack developer focused on building premium, high-performance web applications with a sharp eye for UI/UX design.
 
