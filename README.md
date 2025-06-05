@@ -34,7 +34,7 @@ Design and developed with ❤️ by Prince verma(prnxve)
 │   ├── images/
 │   └── fonts/
 ├── /css
-│   └── styles.css
+│   └── portfolio.css
 ├── /js
-│   └── main.js
+│   └── portfolio.js
 └── README.md
