@@ -382,11 +382,6 @@ width: 50px;
      flex-direction: column;
     }
 
-    .project-card:hover {
-      transform: translateY(-8px);
-      border: 1px solid rgba(138, 43, 226, 0.4);
-    }
-
     .project-image {
       display: block;
       margin: 20px auto 10px auto;
@@ -460,3 +455,8 @@ width: 50px;
     html {
   scroll-padding-top: 120px;
 }
+project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 247, 255, 0.1);
+            border-color: var(--primary);
+        }
