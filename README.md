@@ -5,7 +5,7 @@ Welcome to **[prnxv.me](https://prnxv.me)** — the personal portfolio of **Prin
 
 ## 🔗 Live Website
 
-👉 **[https://prnxv.me](https://prnxv.me)**
+👉 **[https://prnxve.me](https://prnxv.me)**
 
 [![Portfolio Status](https://img.shields.io/website?url=https%3A%2F%2Fprnxv.me&style=for-the-badge)](https://prnxv.me)
 ![GitHub last commit](https://img.shields.io/github/last-commit/prnxv/Portfolio-?style=for-the-badge)
